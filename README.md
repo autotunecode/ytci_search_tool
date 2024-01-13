@@ -6,15 +6,15 @@
 
 - YouTube チャンネルの検索
 - チャンネルの詳細情報の取得
-- チャンネルの投稿頻度と登録者数の相関の可視化 ß
+- チャンネルの投稿頻度と登録者数の相関の可視化
 
 ## 使用方法
 
 1. config.json ファイルに YouTube Data API v3 の API キーを設定します。
-   ＃config.json 記述内容
+   config.json 記述内容
    your api key にご自身で取得した API キーを記述
    ```
-   ß   {
+   {
    "API_KEY": "your api key"
    }
    ```
