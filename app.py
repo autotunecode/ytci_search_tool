@@ -11,7 +11,10 @@ with open('config.json', 'r') as f:
   config = json.load(f)
 
 # YouTube Data API v3のAPIキーを設定します
-API_KEY = config['API_KEY']
+# API_KEY = config['API_KEY']
+
+# streamlit share上でAPIキーを設定する場合
+API_KEY = st.secrets['API_KEY']
 
 # チャンネルIDを元にチャンネル情報を取得する関数
 def get_channel_info(channel_id):
