@@ -7,8 +7,8 @@ import numpy as np
 import japanize_matplotlib 
 
 # config.jsonから設定を読み込む
-with open('config.json', 'r') as f:
-  config = json.load(f)
+# with open('config.json', 'r') as f:
+#   config = json.load(f)
 
 # YouTube Data API v3のAPIキーを設定します
 # API_KEY = config['API_KEY']
