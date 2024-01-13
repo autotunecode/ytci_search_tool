@@ -1,0 +1,5 @@
+streamlit==1.20.0
+requests==2.31.0
+matplotlib==3.7.1
+numpy==1.25.0
+japanize_matplotlib==1.1.3
